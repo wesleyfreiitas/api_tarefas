@@ -1,6 +1,6 @@
 const path = require("path")
 const express = require("express")
-const tasks = require("./tasks.json")
+const tasks = require("tasks.json")
 
 const app = express()
 app.use(express.json())

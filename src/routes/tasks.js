@@ -1,6 +1,6 @@
 const express = require("express")
 const router = express.Router()
-const tasks = require("../../tasks.json")
+const tasks = require("../data/tasks.json")
 router.get("/", (req, res) => {
     res.send(tasks)
 })
